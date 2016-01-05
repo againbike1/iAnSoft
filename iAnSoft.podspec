@@ -22,12 +22,4 @@ Pod::Spec.new do |s|
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
 
-  ＃s.dependency "IQKeyboardManager"
-  ＃s.dependency "MBProgressHUD"
-  ＃s.dependency "AFNetworking"
-  ＃s.dependency "SDWebImage"
-  ＃s.dependency "MJExtension"
-  ＃s.dependency "MJRefresh"
-  ＃s.dependency "Masonry"
-
 end

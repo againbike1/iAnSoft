@@ -9,7 +9,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface IANBaseModel : NSObject
+@interface IANBaseModel : NSObject <NSCoding>
 
 /**
  *  模型对象id

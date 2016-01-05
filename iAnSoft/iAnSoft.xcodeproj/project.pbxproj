@@ -15,10 +15,7 @@
 		D9B3D2C01C3B9F93009EF530 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9B3D2BE1C3B9F93009EF530 /* LaunchScreen.storyboard */; };
 		D9B3D2CB1C3B9F93009EF530 /* iAnSoftTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D2CA1C3B9F93009EF530 /* iAnSoftTests.m */; };
 		D9B3D2D61C3B9F93009EF530 /* iAnSoftUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D2D51C3B9F93009EF530 /* iAnSoftUITests.m */; };
-		D9B3D2EB1C3BA064009EF530 /* IANStoreUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D2EA1C3BA064009EF530 /* IANStoreUtility.m */; };
-		D9B3D2EE1C3BA279009EF530 /* IANAccountHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D2ED1C3BA279009EF530 /* IANAccountHelper.m */; };
-		D9B3D2F11C3BA2BF009EF530 /* IANBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D2F01C3BA2BF009EF530 /* IANBaseModel.m */; };
-		D9B3D2F41C3BA801009EF530 /* NSString+Exist.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D2F31C3BA801009EF530 /* NSString+Exist.m */; };
+		D9B3D2F71C3BBE18009EF530 /* TestModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D9B3D2F61C3BBE18009EF530 /* TestModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,16 +52,8 @@
 		D9B3D2D11C3B9F93009EF530 /* iAnSoftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iAnSoftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B3D2D51C3B9F93009EF530 /* iAnSoftUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAnSoftUITests.m; sourceTree = "<group>"; };
 		D9B3D2D71C3B9F93009EF530 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D9B3D2E41C3B9F9D009EF530 /* IanSoft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IanSoft.h; sourceTree = "<group>"; };
-		D9B3D2E51C3B9F9D009EF530 /* IanSoftMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IanSoftMacro.h; sourceTree = "<group>"; };
-		D9B3D2E91C3BA064009EF530 /* IANStoreUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IANStoreUtility.h; sourceTree = "<group>"; };
-		D9B3D2EA1C3BA064009EF530 /* IANStoreUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IANStoreUtility.m; sourceTree = "<group>"; };
-		D9B3D2EC1C3BA279009EF530 /* IANAccountHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IANAccountHelper.h; sourceTree = "<group>"; };
-		D9B3D2ED1C3BA279009EF530 /* IANAccountHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IANAccountHelper.m; sourceTree = "<group>"; };
-		D9B3D2EF1C3BA2BF009EF530 /* IANBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IANBaseModel.h; sourceTree = "<group>"; };
-		D9B3D2F01C3BA2BF009EF530 /* IANBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IANBaseModel.m; sourceTree = "<group>"; };
-		D9B3D2F21C3BA801009EF530 /* NSString+Exist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Exist.h"; sourceTree = "<group>"; };
-		D9B3D2F31C3BA801009EF530 /* NSString+Exist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Exist.m"; sourceTree = "<group>"; };
+		D9B3D2F51C3BBE18009EF530 /* TestModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestModel.h; sourceTree = "<group>"; };
+		D9B3D2F61C3BBE18009EF530 /* TestModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +84,6 @@
 		D9B3D2A41C3B9F93009EF530 = {
 			isa = PBXGroup;
 			children = (
-				D9B3D2E31C3B9F9D009EF530 /* Classes */,
 				D9B3D2AF1C3B9F93009EF530 /* iAnSoft */,
 				D9B3D2C91C3B9F93009EF530 /* iAnSoftTests */,
 				D9B3D2D41C3B9F93009EF530 /* iAnSoftUITests */,
@@ -125,6 +113,8 @@
 				D9B3D2BE1C3B9F93009EF530 /* LaunchScreen.storyboard */,
 				D9B3D2C11C3B9F93009EF530 /* Info.plist */,
 				D9B3D2B01C3B9F93009EF530 /* Supporting Files */,
+				D9B3D2F51C3BBE18009EF530 /* TestModel.h */,
+				D9B3D2F61C3BBE18009EF530 /* TestModel.m */,
 			);
 			path = iAnSoft;
 			sourceTree = "<group>";
@@ -153,24 +143,6 @@
 				D9B3D2D71C3B9F93009EF530 /* Info.plist */,
 			);
 			path = iAnSoftUITests;
-			sourceTree = "<group>";
-		};
-		D9B3D2E31C3B9F9D009EF530 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				D9B3D2E41C3B9F9D009EF530 /* IanSoft.h */,
-				D9B3D2E51C3B9F9D009EF530 /* IanSoftMacro.h */,
-				D9B3D2E91C3BA064009EF530 /* IANStoreUtility.h */,
-				D9B3D2EA1C3BA064009EF530 /* IANStoreUtility.m */,
-				D9B3D2EC1C3BA279009EF530 /* IANAccountHelper.h */,
-				D9B3D2ED1C3BA279009EF530 /* IANAccountHelper.m */,
-				D9B3D2EF1C3BA2BF009EF530 /* IANBaseModel.h */,
-				D9B3D2F01C3BA2BF009EF530 /* IANBaseModel.m */,
-				D9B3D2F21C3BA801009EF530 /* NSString+Exist.h */,
-				D9B3D2F31C3BA801009EF530 /* NSString+Exist.m */,
-			);
-			name = Classes;
-			path = ../Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,12 +276,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9B3D2B81C3B9F93009EF530 /* ViewController.m in Sources */,
-				D9B3D2EB1C3BA064009EF530 /* IANStoreUtility.m in Sources */,
-				D9B3D2F41C3BA801009EF530 /* NSString+Exist.m in Sources */,
 				D9B3D2B51C3B9F93009EF530 /* AppDelegate.m in Sources */,
 				D9B3D2B21C3B9F93009EF530 /* main.m in Sources */,
-				D9B3D2EE1C3BA279009EF530 /* IANAccountHelper.m in Sources */,
-				D9B3D2F11C3BA2BF009EF530 /* IANBaseModel.m in Sources */,
+				D9B3D2F71C3BBE18009EF530 /* TestModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +502,7 @@
 				D9B3D2DC1C3B9F93009EF530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9B3D2DD1C3B9F93009EF530 /* Build configuration list for PBXNativeTarget "iAnSoftTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +511,7 @@
 				D9B3D2DF1C3B9F93009EF530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9B3D2E01C3B9F93009EF530 /* Build configuration list for PBXNativeTarget "iAnSoftUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +520,7 @@
 				D9B3D2E21C3B9F93009EF530 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
