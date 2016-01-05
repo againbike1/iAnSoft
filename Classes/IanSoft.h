@@ -12,5 +12,16 @@
 
 #import <iAnSoft/IanSoftMacro.h>
 
+#import <iAnSoft/IANStoreUtility.h>
+#import <iAnSoft/IANAccountHelper.h>
+#import <iAnSoft/IANBaseModel.h>
+
+#else
+
+#import "IanSoftMacro.h"
+#import "IANStoreUtility.h"
+#import "IANAccountHelper.h"
+#import "IANBaseModel.h"
+
 
 #endif /* IanSoft_h */

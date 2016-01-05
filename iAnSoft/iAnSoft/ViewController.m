@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "TestModel.h"
+#import "IanSoft.h"
 
 @interface ViewController ()
 
@@ -17,6 +19,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    TestModel *model = [[TestModel alloc] init];
+    model.name = @"Thomas";
+    BOOL success = [IANStoreUtility storeToRootDirectory:model key:@"testKey"];
+    if (success) {
+        IANLog(@"success");
+        
+        IANBaseModel *getModel = [IANStoreUtility fetchInRootDirectoryByKey:@"testKey"];
+        IANLog(@"name:%@", getModel.name);
+    }else {
+        IANLog(@"failure");
+    }
+    
 }
 
 - (void)didReceiveMemoryWarning {
